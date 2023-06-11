@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+
+}
+li, a, button{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.Logo{
+    cursor: pointer;
+    margin-right:auto;
+    size-adjust: 50px;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+    
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #0088a9 ;
+}
+button{
+    margin-left: 20%;
+    padding: 9px 25px;
+    background-color: rgba(157, 168, 241,1);
+    border: none;
+    border-radius : 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(0, 136, 169, 0.8) ;
+}
+.row{
+    margin:20px;
+    padding: 20px;
+    display:flex;
+    height:88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+} 
+h1{
+    font-family:"Montserrat", sans-serif;
+    color:#edf0f1;
+    font-size: 85px;
+}
+p1{
+    font-family:"Montserrat", sans-serif;
+    color: #edf0f1;
+    font-size: 25px;
+    line-height: 80px;
+}
+button{
+    
+    color:#000;
+    font size=12px;
+    background:#fff
+    border:0;
+    border radius: 30px;
+}
+.card{
+    color: #edf0f1;
+    font-display:inline ;
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 100px 55px;
+    box-sizing : border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    transition: 0.5s;
+    background-image: url(img/logo2.png);
+    background-position: top;
+    background-size:auto; 
+    
+}
+.card1{
+    background-image: url(img/logo2.png);
+
+}
+.card2{
+    background-image: url(img/logo3.jpg);
+
+}
+.card3{
+    background-image: url(img/logo5.jpg);
+
+}
+.card4{
+    background-image: url(img/logo4.jpg);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: rgba(1000, 168, 241,1);
+    text-shadow: 0 0 20px #f7f6f6;
+    background: none;
+    font-size: 25px;
+}
