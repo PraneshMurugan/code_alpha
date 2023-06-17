@@ -1,29 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
-
+    background-color:rgb(246, 220, 128);
 }
 li, a, button{
     font-family:"Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: #1b1e1f;
     text-decoration: none;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 5%;
 }
 .Logo{
     cursor: pointer;
     margin-right:auto;
-    size-adjust: 50px;
+    size-adjust: 40px;
 }
 .nav__links{
     list-style: none;
@@ -41,9 +41,10 @@ header{
     color: #0088a9 ;
 }
 button{
+    top: 10%;
     margin-left: 20%;
-    padding: 9px 25px;
-    background-color: rgba(157, 168, 241,1);
+    padding: 10px 30px;
+    background-color: rgb(18, 207, 245);
     border: none;
     border-radius : 50px;
     cursor: pointer;
@@ -61,20 +62,21 @@ button:hover{
 }
 .col{
     flex-basis: 50%;
+    font-size: 50px;
+    font-family:"Merriweather";
 } 
 h1{
     font-family:"Montserrat", sans-serif;
-    color:#edf0f1;
+    color:#0c0d0d;
     font-size: 85px;
 }
 p1{
-    font-family:"Montserrat", sans-serif;
-    color: #edf0f1;
+    font-family:"Merriweather", sans-serif;
+    color: #121515;
     font-size: 25px;
     line-height: 80px;
 }
 button{
-    
     color:#000;
     font size=12px;
     background:#fff
@@ -86,7 +88,7 @@ button{
     font-display:inline ;
     font-family:"Montserrat", sans-serif;
     font-size: 20px;
-    width: 250px;
+    width: 300px;
     height: 250px;
     display: inline-block;
     border-radius: 10px;
